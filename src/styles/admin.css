@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+.admin-shell {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #f4f7f5;
+  background-image: radial-gradient(rgba(15, 118, 110, 0.08) 1px, transparent 1px), linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(226, 232, 240, 0.45));
+  background-size: 16px 16px, 100% 100%;
+}
+
+.admin-mono { font-family: 'DM Mono', monospace; }
+
+.admin-hero {
+  background-image: linear-gradient(90deg, rgba(5, 25, 36, 0.95) 0%, rgba(5, 25, 36, 0.72) 48%, rgba(5, 25, 36, 0.34) 100%), url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85');
+  background-position: center;
+  background-size: cover;
+}
+
+.admin-grid {
+  background-image: linear-gradient(rgba(45, 212, 191, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(45, 212, 191, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.admin-tile { box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08); }
+.admin-table-row { transition: background-color 160ms ease, transform 160ms ease; }
+.admin-table-row:hover { background-color: #f0fdfa; transform: translateX(2px); }
